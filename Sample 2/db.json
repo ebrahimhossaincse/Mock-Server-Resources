@@ -1,0 +1,205 @@
+{
+  "travelers": [
+    {
+      "id": "98765",
+      "firstName": "David",
+      "lastName": "Clark",
+      "dob": "1988-03-22",
+      "gender": "Male",
+      "contact": {
+        "phone": "+1-555-9876",
+        "email": "david.clark@example.com"
+      },
+      "passport": {
+        "number": "P123456789",
+        "issueCountry": "USA",
+        "expirationDate": "2030-05-22"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75001"
+      }
+    },
+    {
+      "id": "71da",
+      "firstName": "David",
+      "lastName": "Clark",
+      "dob": "1988-03-22",
+      "gender": "Male",
+      "contact": {
+        "phone": "+1-555-9876",
+        "email": "david.clark@example.com"
+      },
+      "passport": {
+        "number": "P123456789",
+        "issueCountry": "USA",
+        "expirationDate": "2030-05-22"
+      },
+      "address": {
+        "street": "456 Elm St",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75001"
+      }
+    }
+  ],
+  "trips": [
+    {
+      "id": "T12345",
+      "destination": "Paris, France",
+      "tripStartDate": "2025-06-15",
+      "tripEndDate": "2025-06-22",
+      "tripType": "Vacation",
+      "travelers": [
+        {
+          "travelerId": "98765",
+          "role": "Main"
+        },
+        {
+          "travelerId": "54321",
+          "role": "Companion"
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "bookingId": "B9876",
+      "type": "Flight",
+      "provider": "Air France",
+      "flightDetails": {
+        "flightNumber": "AF123",
+        "departureDate": "2025-06-15",
+        "departureTime": "10:00 AM",
+        "departureAirport": "Dallas/Fort Worth International Airport (DFW)",
+        "arrivalAirport": "Charles de Gaulle Airport (CDG)",
+        "arrivalDate": "2025-06-16",
+        "arrivalTime": "12:30 PM",
+        "class": "Economy",
+        "price": 1200,
+        "currency": "USD"
+      },
+      "id": "0cc8"
+    },
+    {
+      "bookingId": "B54321",
+      "type": "Accommodation",
+      "provider": "Airbnb",
+      "accommodationDetails": {
+        "name": "Paris Central Loft",
+        "address": {
+          "street": "123 Rue de Paris",
+          "city": "Paris",
+          "postalCode": "75001"
+        },
+        "checkInDate": "2025-06-16",
+        "checkOutDate": "2025-06-22",
+        "pricePerNight": 150,
+        "totalPrice": 900,
+        "currency": "EUR"
+      },
+      "id": "2f4d"
+    },
+    {
+      "bookingId": "B23456",
+      "type": "Car Rental",
+      "provider": "Enterprise",
+      "rentalDetails": {
+        "pickupLocation": "Charles de Gaulle Airport (CDG)",
+        "dropoffLocation": "Paris City Center",
+        "pickupDate": "2025-06-16",
+        "dropoffDate": "2025-06-22",
+        "carModel": "Toyota Corolla",
+        "pricePerDay": 50,
+        "totalPrice": 300,
+        "currency": "EUR"
+      },
+      "id": "f18a"
+    }
+  ],
+  "itineraries": [
+    {
+      "flights": [
+        {
+          "flightNumber": "AF123",
+          "departure": {
+            "date": "2025-06-15",
+            "time": "10:00 AM",
+            "airport": "Dallas/Fort Worth International Airport (DFW)"
+          },
+          "arrival": {
+            "date": "2025-06-16",
+            "time": "12:30 PM",
+            "airport": "Charles de Gaulle Airport (CDG)"
+          }
+        }
+      ],
+      "accommodation": {
+        "name": "Paris Central Loft",
+        "address": {
+          "street": "123 Rue de Paris",
+          "city": "Paris",
+          "postalCode": "75001"
+        },
+        "checkInDate": "2025-06-16",
+        "checkOutDate": "2025-06-22",
+        "amenities": [
+          "Free Wi-Fi",
+          "Air Conditioning",
+          "24/7 Reception"
+        ]
+      },
+      "carRental": {
+        "pickupLocation": "Charles de Gaulle Airport (CDG)",
+        "pickupDate": "2025-06-16",
+        "pickupTime": "1:00 PM",
+        "dropoffLocation": "Paris City Center",
+        "dropoffDate": "2025-06-22",
+        "carModel": "Toyota Corolla"
+      },
+      "activities": [
+        {
+          "activityName": "Eiffel Tower Tour",
+          "location": "Eiffel Tower",
+          "date": "2025-06-17",
+          "time": "10:00 AM",
+          "duration": "2 hours",
+          "price": 30,
+          "currency": "EUR"
+        },
+        {
+          "activityName": "Louvre Museum Visit",
+          "location": "Louvre Museum",
+          "date": "2025-06-18",
+          "time": "2:00 PM",
+          "duration": "3 hours",
+          "price": 20,
+          "currency": "EUR"
+        }
+      ],
+      "id": "1430"
+    }
+  ],
+  "payments": [
+    {
+      "paymentId": "P12345",
+      "amount": 1200,
+      "currency": "USD",
+      "paymentMethod": "Credit Card",
+      "status": "Paid",
+      "date": "2025-01-15",
+      "id": "8558"
+    },
+    {
+      "paymentId": "P12346",
+      "amount": 1200,
+      "currency": "EUR",
+      "paymentMethod": "Credit Card",
+      "status": "Pending",
+      "date": "2025-05-01",
+      "id": "ab71"
+    }
+  ]
+}

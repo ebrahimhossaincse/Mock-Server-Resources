@@ -1,0 +1,183 @@
+{
+  "patient": {
+    "id": "12345",
+    "firstName": "John",
+    "lastName": "Doe",
+    "dob": "1985-07-15",
+    "gender": "Male",
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701"
+    },
+    "contact": {
+      "phone": "+1-555-1234",
+      "email": "john.doe@example.com"
+    },
+    "insurance": {
+      "provider": "HealthPlus",
+      "policyNumber": "HP1234567890",
+      "coverage": {
+        "medical": true,
+        "dental": true,
+        "vision": false
+      }
+    },
+    "emergencyContact": {
+      "name": "Jane Doe",
+      "relation": "Spouse",
+      "phone": "+1-555-5678"
+    }
+  },
+  "healthConditions": [
+    {
+      "condition": "Diabetes",
+      "diagnosisDate": "2010-05-12",
+      "severity": "Moderate",
+      "medications": [
+        {
+          "name": "Metformin",
+          "dose": "500 mg",
+          "frequency": "Twice a day",
+          "route": "Oral",
+          "startDate": "2010-05-12",
+          "endDate": null
+        },
+        {
+          "name": "Insulin",
+          "dose": "15 units",
+          "frequency": "Once a day",
+          "route": "Subcutaneous",
+          "startDate": "2015-08-20",
+          "endDate": null
+        }
+      ],
+      "labResults": [
+        {
+          "testName": "Glucose Level",
+          "result": "180 mg/dL",
+          "date": "2025-01-15",
+          "normalRange": "70-140 mg/dL"
+        },
+        {
+          "testName": "HbA1c",
+          "result": "8.1%",
+          "date": "2025-01-15",
+          "normalRange": "4.0-6.0%"
+        }
+      ]
+    },
+    {
+      "condition": "Hypertension",
+      "diagnosisDate": "2018-09-03",
+      "severity": "Mild",
+      "medications": [
+        {
+          "name": "Lisinopril",
+          "dose": "10 mg",
+          "frequency": "Once a day",
+          "route": "Oral",
+          "startDate": "2018-09-03",
+          "endDate": null
+        },
+        {
+          "name": "Amlodipine",
+          "dose": "5 mg",
+          "frequency": "Once a day",
+          "route": "Oral",
+          "startDate": "2020-03-15",
+          "endDate": null
+        }
+      ],
+      "labResults": [
+        {
+          "testName": "Blood Pressure",
+          "result": "135/85 mmHg",
+          "date": "2025-01-20",
+          "normalRange": "120/80 mmHg"
+        },
+        {
+          "testName": "Cholesterol",
+          "result": "200 mg/dL",
+          "date": "2025-01-20",
+          "normalRange": "Below 200 mg/dL"
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "appointmentId": "A123",
+      "date": "2025-02-10",
+      "time": "10:00 AM",
+      "doctor": {
+        "id": "D987",
+        "firstName": "Sarah",
+        "lastName": "Smith",
+        "specialty": "Endocrinology",
+        "contact": {
+          "phone": "+1-555-9876",
+          "email": "dr.smith@example.com"
+        }
+      },
+      "location": {
+        "address": "456 Health St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62702"
+      },
+      "reason": "Routine checkup for diabetes management"
+    },
+    {
+      "appointmentId": "A124",
+      "date": "2025-02-15",
+      "time": "2:00 PM",
+      "doctor": {
+        "id": "D654",
+        "firstName": "James",
+        "lastName": "Johnson",
+        "specialty": "Cardiology",
+        "contact": {
+          "phone": "+1-555-6543",
+          "email": "dr.johnson@example.com"
+        }
+      },
+      "location": {
+        "address": "789 Heart St",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62703"
+      },
+      "reason": "Consultation for hypertension management"
+    }
+  ],
+  "hospitalizations": [
+    {
+      "admissionDate": "2024-12-01",
+      "dischargeDate": "2024-12-07",
+      "reason": "Diabetic ketoacidosis",
+      "hospital": {
+        "name": "Springfield General Hospital",
+        "address": "123 Hospital Rd",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704"
+      },
+      "treatment": [
+        {
+          "medication": "IV Insulin",
+          "dose": "Continuous",
+          "frequency": "As needed",
+          "route": "Intravenous"
+        },
+        {
+          "medication": "Normal Saline",
+          "dose": "500 mL",
+          "frequency": "As needed",
+          "route": "Intravenous"
+        }
+      ]
+    }
+  ]
+}

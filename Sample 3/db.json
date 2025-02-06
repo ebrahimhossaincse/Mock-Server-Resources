@@ -1,0 +1,134 @@
+{
+  "problems": [
+    {
+      "Diabetes": [
+        {
+          "medications": [
+            {
+              "medicationsClasses": [
+                {
+                  "className": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "aspirin",
+                          "dose": "",
+                          "strength": "500 mg"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "metformin",
+                          "dose": "500 mg",
+                          "strength": "500 mg"
+                        }
+                      ]
+                    }
+                  ],
+                  "className2": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "insulin",
+                          "dose": "10 units",
+                          "strength": "10 units"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "glipizide",
+                          "dose": "5 mg",
+                          "strength": "5 mg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "glucoseLevel": "200 mg/dL",
+              "HbA1c": "8.0%",
+              "missing_field": "missing_value"
+            }
+          ]
+        }
+      ],
+      "Hypertension": [
+        {
+          "medications": [
+            {
+              "medicationsClasses": [
+                {
+                  "className": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "lisinopril",
+                          "dose": "10 mg",
+                          "strength": "10 mg"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "amlodipine",
+                          "dose": "5 mg",
+                          "strength": "5 mg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "bloodPressure": "140/90 mmHg",
+              "cholesterol": "210 mg/dL",
+              "missing_field": "missing_value"
+            }
+          ]
+        }
+      ],
+      "Asthma": [
+        {
+          "medications": [
+            {
+              "medicationsClasses": [
+                {
+                  "className": [
+                    {
+                      "associatedDrug": [
+                        {
+                          "name": "albuterol",
+                          "dose": "2 puffs",
+                          "strength": "90 mcg"
+                        }
+                      ],
+                      "associatedDrug#2": [
+                        {
+                          "name": "fluticasone",
+                          "dose": "250 mcg",
+                          "strength": "250 mcg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "labs": [
+            {
+              "peakFlow": "400 L/min",
+              "missing_field": "missing_value"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
